@@ -21,7 +21,6 @@ describe('Register', () => {
         cy.get('input[id="profile.lastName"]').type(lastname)
         cy.get('#form-signup #email').type(email)
         cy.get('#form-signup #password').type(password)
-
      })
      it('confirm', () => {
       cy.get('[class="ant-btn ant-btn-primary"]')
